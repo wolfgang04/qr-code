@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap');
+
+body {
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    width: auto;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.text-container {
+    font-size: 15px;
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin: 5px;
+}
+
+.subtext {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    margin: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    /* display: block; */
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
